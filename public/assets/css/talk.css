@@ -1,0 +1,178 @@
+
+
+body {
+    /* background-color: #9DCCE0; */
+    margin: 0px;
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+}
+
+
+/* ヘッダー周辺 */
+header {
+    padding: 10px;
+    border-bottom: 5px solid #c9c9c9;
+}
+
+header h1 {
+    color: #22b24c;
+}
+
+/* メイン周辺 */
+main {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    background-color: #f3f3f3;
+}
+
+/* フッター周辺 */
+footer {
+    border-top: 5px solid #c9c9c9;
+    height: 150px; 
+}
+
+#icons {
+    width: 100%;
+    text-align: right;
+    padding-bottom: 3px;
+}
+
+#filter {
+    width: 100%;
+    text-align: right;
+    padding-bottom: 5px;
+}
+
+/* チャットと入力エリア */
+#chat-area, #text-area {
+    background-color: #c9c9c9;
+}
+
+/* チャット表示欄 */
+#chat-area {
+    height: 450px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+/* ユーザー、botの投稿部分 */
+.b-msg {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.b-msg div {
+    max-width: 90%;
+    background-color: rgb(255, 255, 255);
+    padding: 8px 15px;
+    border-radius: 10px;
+    color: #000000;
+    white-space: normal;
+    overflow: hidden;
+    text-align: left;
+    margin-bottom: -15px;
+    margin-left: 10px;
+}
+
+.u-msg {
+    width: 100%;
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.u-msg div {
+    max-width: 90%;
+    background-color: rgb(255, 255, 255);
+    padding: 8px 15px;
+    border-radius: 10px;
+    color: #000000;
+    white-space: normal;
+    overflow: hidden;
+    text-align: left;
+    margin-bottom: -15px;
+    margin-right: 10px;
+}
+
+/* 横並び設定 */
+.m-inline-block {
+    display: inline-block;
+}
+
+#text-area {
+    padding: 20px 10px;
+}
+
+#message-input {
+    width: 100%;
+}
+
+#dimmerWrapper {
+    padding: 0px;
+    margin: 0px;
+}
+
+#fromDWrapper {
+    margin-bottom: 5px;
+}
+
+#ngword-content-wrapper {
+    font-weight: bold;
+}
+
+.recommendedServiceImg {
+    cursor: pointer;
+}
+
+.recommendedServiceImg:hover {
+    transition: .8s;
+    transform: scale(1.05);
+    /* filter: grayscale(50%); */
+}
+
+.img-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-wrapper p {
+    font-weight: bold;
+}
+
+#first-message {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#first-message p {
+    font-weight: bold;
+}
+
+.ymd {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.ymd p {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#fontsize-change-content {
+    width: 100%;
+}
+
+#fromDWrapper {
+    width: 100%;
+}
+
+#toDWrapper {
+    width: 100%;
+}
+
+.ui-datepicker-trigger {
+    cursor: pointer;
+}
+
+#keyword-wrapper {
+    width: 100%;
+}
